@@ -90,3 +90,60 @@
     text-shadow: 0 0 2px rgba(255,255,255,255);
 
 }
+/*//////////////////*/
+
+.program{
+    display: flex;
+    /*max-width: 1140px;*/
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.program_column{
+    min-width: 349px;
+    padding: 90px 50px;
+    flex: 0 1 28%;
+    margin: 0 0 50px 0;
+    background-size: cover;
+    filter: drop-shadow(16px 16px 24px black) brightness(86%) contrast(110%) grayscale(50%);
+    transition: transform 0.3s ease;
+    color: white;
+}
+
+.program_column:hover{
+    transform: scale(1.1);
+}
+
+.program_column:nth-child(1){
+    background-image: url(img/Programs/1.jpg);
+}
+
+.program_column:nth-child(2){
+    background-image: url(img/Programs/2.jpg);
+}
+
+.program_column:nth-child(3){
+    background-image: url(img/Programs/3.jpg);
+
+}
+
+.program_column:nth-child(4){
+    background-image: url(img/Programs/4.jpg);
+}
+
+.program_column:nth-child(5){
+    background-image: url(img/Programs/5.jpg);
+}
+
+.program_column:nth-child(6){
+    background-image: url(img/Programs/6.jpg);
+}
+
+.programs_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
